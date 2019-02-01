@@ -34,8 +34,14 @@ namespace View_WPF
 
 		private void btn_DeletePet(object sender, RoutedEventArgs e)
 		{
+			cont.DeletePet(Pets.Na)
+		}
 
-			cont.DeletePet();
+		private void btn_ShowPets(object sender, RoutedEventArgs e)
+		{
+		
+				Pets.ItemsSource = cont.ShowPets().Select(pet => pet.Name + '\t' + pet.OwnerId);
+			
 		}
 	}
 }

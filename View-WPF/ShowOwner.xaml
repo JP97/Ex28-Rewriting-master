@@ -31,6 +31,7 @@
         <Button Content="Add Pet" HorizontalAlignment="Left" Margin="426,374,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Edit Pet" HorizontalAlignment="Left" Margin="521,374,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Delete Pet" HorizontalAlignment="Left" Margin="619,374,0,0" VerticalAlignment="Top" Width="75" Click="btn_DeletePet"/>
+        <Button Content="Show Pets" HorizontalAlignment="Left" Margin="689,165,0,0" VerticalAlignment="Top" Width="75" Click="btn_ShowPets"/>
 
     </Grid>
 </Window>
